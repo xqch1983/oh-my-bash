@@ -30,7 +30,7 @@ function _omb_theme_PROMPT_COMMAND {
     ps_user_mark="${_omb_prompt_green} $ ${_omb_prompt_normal}";
     ps_root="${_omb_prompt_brown}\u${_omb_prompt_brown}";
     ps_root_mark="${_omb_prompt_brown} # ${_omb_prompt_normal}"
-    ps_path="${_omb_prompt_olive}\w${_omb_prompt_normal}";
+    ps_path="${_omb_prompt_olive}\$PWD${_omb_prompt_normal}\n";
 
     # make it work
     case $(id -u) in
